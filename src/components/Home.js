@@ -86,7 +86,7 @@ function Home() {
     console.log(matches)
   }
   return (
-    <>
+    <div className="mainbody">
       <div className="search_bar">
         <input
           type="text"
@@ -98,11 +98,11 @@ function Home() {
         <button className="search_btn" onClick={search}>Search</button>
       </div>
       <div className="sort_bar">
-        <span className="sort_lable">Sort </span>
-        <button className="sort_btn" onClick={setasc}>
+        <span className="sort_lable ss">Sort </span>
+        <button className="sort_btn ss" onClick={setasc}>
           Asc
         </button>
-        <button className="sort_btn" onClick={setdesc}>
+        <button className="sort_btn ss" onClick={setdesc}>
           Desc
         </button>
       </div>
@@ -132,7 +132,7 @@ function Home() {
           Next
         </button>
       </div>
-    </>
+    </div>
   );
 }
 

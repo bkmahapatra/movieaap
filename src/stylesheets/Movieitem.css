@@ -6,6 +6,7 @@
 .movie_poster{
     width: 300px;
     height: 400px;
+    border-radius: 5px;
 }
 .movie_title{
     font-size: 20px;
@@ -15,7 +16,7 @@
 .movie_year{
     color:rgb(111, 111, 111);
     font-weight: 500;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .movie_box{
     margin-top: 5px;
