@@ -4,5 +4,37 @@
 }
 
 .movie_poster{
-    width: 200px;
+    width: 300px;
+    height: 400px;
+}
+.movie_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.movie_year{
+    color:rgb(111, 111, 111);
+    font-weight: 500;
+    margin-left: 10px;
+}
+.movie_box{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.movie_type{
+    background-color: tomato;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.movie_item{
+    width: 300px;
+    padding-bottom: 10px;
+
 }
