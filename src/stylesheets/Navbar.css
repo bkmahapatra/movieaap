@@ -2,3 +2,17 @@
     box-sizing: border-box;
     margin: 0;
 }
+.navbar{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+a{  
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
