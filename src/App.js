@@ -4,11 +4,11 @@ import Home from './components/Home';
 
 function App() {
   return (
-      <>
+      <div id="main">
       
       <Navbar/>
       <Home />
-      </>
+      </div>
     
   );
 }
