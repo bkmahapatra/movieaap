@@ -43,7 +43,7 @@ function Home() {
     if (pg === 1) {
       setData(deta.slice(0, 20));
     } else if (pg === 2) {
-      setData(movies.slice(20, 40));
+      setData(deta.slice(20, 40));
     }
   };
   useEffect(() => {
