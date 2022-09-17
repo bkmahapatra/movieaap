@@ -4,6 +4,7 @@
 }
 .navbar{
     height: 60px;
+    width: 100vw;
     color: white;
     background-color: rgb(3, 4, 42);
 

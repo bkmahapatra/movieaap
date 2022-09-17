@@ -6,10 +6,10 @@ function Navbar() {
     <>
         <div className="navbar">
             <a href="/"className="app_name">MovieFun</a>
-            <div className="search_bar">
+            {/* <div className="search_bar">
                 <input type="text" name="" id="search_item" />
                 <div className="btn_search">Search</div>
-            </div>
+            </div> */}
         </div>
     </>
   )

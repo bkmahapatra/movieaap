@@ -39,3 +39,14 @@
     width: 60px;
     background-color: rgb(194, 28, 28);
 }
+
+/* @media screen and (max-width: 600px) {
+    .movie_poster{
+        height: 300px;
+        border-radius: 15px;
+    }
+    .movie_title{
+        font-size: 15px;
+        font-weight: 300;
+    }
+} */
