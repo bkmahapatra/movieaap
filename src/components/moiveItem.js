@@ -17,7 +17,7 @@ function MoiveItem(props) {
         <img className="movie_poster" src={ props.mv_poster === "N/A" ? require("../batman.jpg"): props.mv_poster} alt="" />
 
         <div className="movie_box">
-          <div className="movie_title">{fixSize(props.mv_title,40)}</div>
+          <h3 className="movie_title">{fixSize(props.mv_title,40)}</h3>
           <div className="movie_year">{props.mv_year}</div>
         </div>
         <div className="movie_type">{props.mv_type}</div>
